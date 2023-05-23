@@ -1,0 +1,62 @@
+.home-body {
+  background-color: #ffffff;
+  min-height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+
+.dark-body {
+  background-color: #000000;
+}
+.home-card {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.not-found-image {
+  width: 20%;
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 35px;
+}
+
+.light-them-heading {
+  color: #1e293b;
+}
+
+.dark-them-heading {
+  color: #ffffff;
+}
+
+.not-found-para {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.dark-para {
+  color: #334155;
+}
+
+.light-para {
+  color: #f8fafc;
+}
+
+@media (max-width: 767px) {
+  .not-found-image {
+    width: 30%;
+  }
+  .heading {
+    font-size: 25px;
+  }
+  .not-found-para {
+    font-size: 15px;
+  }
+}

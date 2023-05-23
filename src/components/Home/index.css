@@ -1,0 +1,46 @@
+.home-body {
+  background-color: #ffffff;
+  min-height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+
+.dark-body {
+  background-color: #000000 !important;
+}
+
+.home-card {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-image {
+  width: 20%;
+}
+
+.home-heading {
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 35px;
+}
+.home-light-them-heading {
+  color: #1e293b;
+}
+
+.home-dark-them-heading {
+  color: #ffffff;
+}
+
+@media (max-width: 767px) {
+  .home-image {
+    width: 30%;
+  }
+
+  .home-heading {
+    font-size: 25px;
+  }
+}
